@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         contentTxt = (TextView)findViewById(R.id.scan_content);
         //Se agrega la clase MainActivity.java como Listener del evento click del botón de Scan
         scanBtn.setOnClickListener(this);
+        // Verificar actualización al iniciar
+        UpdateChecker.checkForUpdate(this);
     }
     @Override
     public void onClick(View view) {

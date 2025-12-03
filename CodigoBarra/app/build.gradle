@@ -14,7 +14,7 @@ android {
 		minSdk 21 // Considera si puedes subir esta versión, por ejemplo a 23 o 24
         targetSdk 34 // O la última versión estable de la API
         versionCode 1
-        versionName "1.0"
+        versionName "1.5"
 		
 		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
